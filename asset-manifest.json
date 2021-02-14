@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/Kayla-c/static/js/main.ad8ddc8f.chunk.js",
+    "main.js.map": "/Kayla-c/static/js/main.ad8ddc8f.chunk.js.map",
+    "runtime-main.js": "/Kayla-c/static/js/runtime-main.ef0931f4.js",
+    "runtime-main.js.map": "/Kayla-c/static/js/runtime-main.ef0931f4.js.map",
+    "static/js/2.fe26bc99.chunk.js": "/Kayla-c/static/js/2.fe26bc99.chunk.js",
+    "static/js/2.fe26bc99.chunk.js.map": "/Kayla-c/static/js/2.fe26bc99.chunk.js.map",
+    "static/js/3.07f2426e.chunk.js": "/Kayla-c/static/js/3.07f2426e.chunk.js",
+    "static/js/3.07f2426e.chunk.js.map": "/Kayla-c/static/js/3.07f2426e.chunk.js.map",
+    "index.html": "/Kayla-c/index.html",
+    "static/js/2.fe26bc99.chunk.js.LICENSE.txt": "/Kayla-c/static/js/2.fe26bc99.chunk.js.LICENSE.txt",
+    "static/media/profile_pic.ba4444c0.jpg": "/Kayla-c/static/media/profile_pic.ba4444c0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef0931f4.js",
+    "static/js/2.fe26bc99.chunk.js",
+    "static/js/main.ad8ddc8f.chunk.js"
+  ]
+}
