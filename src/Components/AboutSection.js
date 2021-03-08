@@ -33,6 +33,7 @@ export const HeaderLayout = styled.div`
   flex-flow: column;
   justify-content: center;
   padding: 1rem;
+  text-align: center;
 
   @media only screen and (min-width: 760px) {
     flex-flow: wrap;

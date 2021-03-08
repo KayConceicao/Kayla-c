@@ -36,6 +36,7 @@ const FooterStyle = styled.div`
   padding: 1rem 3rem;
   background: #282828;
   color: #fff;
+  text-align: center;
 
   .contactIcon {
     margin: 0 0.5rem;
