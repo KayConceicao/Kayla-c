@@ -10,6 +10,7 @@ import { AnimatePresence } from "framer-motion";
 
 // Styles
 import GlobalStyle from "./Components/GlobalStyle";
+import "./styles/app.scss";
 
 
 function App() {

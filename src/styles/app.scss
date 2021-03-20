@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.mainFooter {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  background: #282828;
+  color: #fff;
+  text-align: center;
+
+  .contactIcon {
+    margin: 0 0.5rem;
+    padding: 0.2rem;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    :hover {
+      color: #6A5ACD;
+    }
+  }
+}
+
+
+// imported styles
+@import "./aboutpage";

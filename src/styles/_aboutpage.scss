@@ -1,0 +1,189 @@
+// Header section
+.headerLayout {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+
+  @media only screen and (min-width: 760px) {
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 3rem 3rem 0;
+  }
+}
+
+.headerTitle {
+display: flex;
+  flex-flow: row;
+  align-items: center;
+  h1 {
+    margin-left: -4rem;
+    color: #6A5ACD;
+    font-family: 'Roboto Slab';
+    font-size: 3rem;
+  }
+}
+
+.KIconAnimated{
+    left: 0;
+    top: 5%;
+    z-index: 1;
+    width: 60%;
+  
+    path{
+      fill: none;
+      stroke: #6A5ACD;
+      stroke-width: 12px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+      stroke-dasharray: 513;
+      stroke-dashoffset: 513;
+      animation: dash 3000ms cubic-bezier(.72,.22,.35,1) 666ms forwards;
+  
+      @keyframes dash {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+    }
+}
+
+.bio {
+  color: #282828;
+  z-index: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  @media only screen and (min-width: 760px) {
+    width: 50%;
+  }
+}
+
+.profilePic {
+  overflow: hidden;
+  margin: 3rem 0;
+  position: relative;
+
+  @media only screen and (min-width: 760px) {
+    width: 35%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+  }
+}
+
+// Services section
+.services {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  
+    @media only screen and (min-width: 760px) {
+      flex-flow: wrap;
+      padding: 3rem;
+    }
+}
+
+.introText {
+    width: 100%;
+    @media only screen and (min-width: 760px) {
+        width: 36%;
+      }
+}
+
+.serveCards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+  
+    @media only screen and (min-width: 760px) {
+      width: 60%;
+    }
+}
+
+.listMotion {
+    list-style: none;
+    margin: 1rem;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.listItemMotion {
+    list-style: none;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #c2c5db;
+    border-bottom: 3px solid #6A5ACD;
+    color: #282828;
+    overflow: hidden;
+    padding: 1rem;
+    cursor: pointer;
+    li:last-child {
+    margin-bottom: 0px;
+    }
+    h4 {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    }
+}
+
+.serveCard {
+    margin: 1rem 0;
+    color: #282828;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+  
+    .iconColor {
+      color: #6A5ACD;
+    }
+  
+    .largeIcon {
+      font-size: 2rem;
+    }
+  
+    .smallIcon {
+      font-size: 1rem;
+    }
+}
+
+.contentStyle {
+    padding: 0 2rem;
+}
+
+// Experience section
+.leftBottomBorder {
+  padding: 1rem;
+  margin: 2rem;
+  border-left: solid 5px #6A5ACD;
+  border-bottom: solid 5px #6A5ACD;
+  position: relative;
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 5px;
+    right: -7rem;
+    bottom: -5px;
+    background-color: #6A5ACD;
+  }
+
+  @media only screen and (min-width: 760px) {
+  padding: 3rem;
+  margin: 7rem;
+  }
+}
