@@ -9,7 +9,6 @@ import Footer from "./Components/Footer";
 import { AnimatePresence } from "framer-motion";
 
 // Styles
-import GlobalStyle from "./Components/GlobalStyle";
 import "./styles/app.scss";
 
 
@@ -17,7 +16,6 @@ function App() {
 
   return (
     <div className="App">
-      <GlobalStyle/>
       <AnimatePresence exitBeforeEnter>
         <AboutMe/>
       </AnimatePresence>

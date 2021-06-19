@@ -1,0 +1,35 @@
+.contact { 
+  padding: 3rem;
+  margin: 2rem 0;
+  background: #c2c5db;
+  color: #1f1e1e;
+  position: relative;
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 100%;
+    left: -7rem;
+    top: 0;
+    background: #c2c5db;
+  }
+
+  a {
+    color: #6A5ACD;
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-weight: lighter;
+    :hover {
+      text-decoration: underline #1f1e1e;
+    }
+
+  }
+
+  @media only screen and (min-width: 760px) {
+  padding: 3rem;
+  padding-bottom: 5rem;
+  margin: 7rem;
+  margin-bottom: 0;
+  }
+}
