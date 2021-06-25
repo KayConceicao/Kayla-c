@@ -26,6 +26,60 @@
 
   }
 
+  .form-container {
+    padding: 1rem;
+    border: dashed 2px #fff;
+  }
+
+  .form-inner {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-flow: column;
+
+    input{
+      height: 2rem;
+    }
+
+    textArea {
+      height: 4rem;
+      resize: vertical;
+    }
+
+    textArea,
+    input {
+      font-family: arial;
+      border: none;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    div[role='alert'] {
+      color: red;
+      margin-top: 1em;
+    }
+  }
+
+  .btn-message {
+    display: flex;
+    flex-flow: row;
+
+    .status-message {
+      display: none;
+      padding: 0 1rem;
+    }
+    .success {
+      display: block;
+      color: green;
+    }
+
+    .failure {
+      display: block;
+      color: red;
+    }
+  }
+
+
   @media only screen and (min-width: 760px) {
   padding: 3rem;
   padding-bottom: 5rem;

@@ -10,18 +10,17 @@
 .styled-btn {
   font-size: 1rem;
   cursor: pointer;
-  padding: 0.5rem 0;
-  background-color: transparent;
-  border: transparent;
-  border-bottom: 4px solid #6A5ACD;
-  color: #6A5ACD;
+  padding: 0.5rem 1rem;
+  background-color: #6A5ACD;
+  color: #fff;
   transition: all 0.5s ease;
   font-family: 'Roboto Slab';
-  text-transform: uppercase;
   text-decoration: none;
+  border: none;
+
   &:hover {
-    border-bottom: 4px solid #6A5ACD;
-    color: #6A5ACD;
+    color: #000;
+    background-color: #fff;
   }
 }
 
