@@ -18,7 +18,7 @@ const Contact = () => {
     const statusMessage = document.querySelector('.status-message');
     const form = document.querySelector('#contact-form');
     generateContactNumber();
-    sendForm('default_service', 'template_8ydi7a', '#contact-form')
+    sendForm('default_service', 'template_8ypdi7a', '#contact-form')
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         form.reset();
