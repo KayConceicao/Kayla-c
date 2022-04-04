@@ -35,15 +35,15 @@ function App() {
             <Router>
               <Nav />
               <Routes>
-                <Route path="Kayla-c/" element={<Portfolio />} />
-                <Route path="Kayla-c/AboutMe" element={<AboutMe />} />
-                <Route path="Kayla-c/MediaPlayer" element={<MediaPlayer />} />
-                <Route path="Kayla-c/TodoComp" element={<TodoComp />} />
-                <Route path="Kayla-c/Budapest" element={<Budapest />} />
-                <Route path="Kayla-c/Florence" element={<Florence />} />
-                <Route path="Kayla-c/Maderia" element={<Maderia />} />
-                <Route path="Kayla-c/FigmaDesign1" element={<FigmaDesign1 />} />
-                <Route path="Kayla-c/FigmaDesign2" element={<FigmaDesign2 />} />
+                <Route path="/" element={<Portfolio />} />
+                <Route path="/AboutMe" element={<AboutMe />} />
+                <Route path="/MediaPlayer" element={<MediaPlayer />} />
+                <Route path="/TodoComp" element={<TodoComp />} />
+                <Route path="/Budapest" element={<Budapest />} />
+                <Route path="/Florence" element={<Florence />} />
+                <Route path="/Maderia" element={<Maderia />} />
+                <Route path="/FigmaDesign1" element={<FigmaDesign1 />} />
+                <Route path="/FigmaDesign2" element={<FigmaDesign2 />} />
               </Routes>
               <Footer/>
             </Router> 

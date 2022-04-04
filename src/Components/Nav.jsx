@@ -9,10 +9,10 @@ const Nav = () => {
 
     return (
       <nav className="main-nav">
-         <Link to="Kayla-c/"><img className="nav-logo" src={logo} alt="K"/></Link>
+         <Link to="/"><img className="nav-logo" src={logo} alt="K"/></Link>
         <ul>
-            <Link to="Kayla-c/"><li>Portfolio</li></Link>
-            <Link to="Kayla-c/AboutMe"><li>About Me</li></Link>
+            <Link to="/"><li>Portfolio</li></Link>
+            <Link to="/AboutMe"><li>About Me</li></Link>
             
         </ul>
       </nav>

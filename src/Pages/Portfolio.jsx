@@ -22,12 +22,12 @@ const Portfolio = () => {
           <h3>Figma Designs</h3>
           <p>This is a collection of designs I created while learning how to use Figma.</p>
           <div className="portfolio-inner">
-            <Link to="./FigmaDesign1" className="portfolio-item">
+            <Link to="/FigmaDesign1" className="portfolio-item">
               <div>
                 <img src={Figma1} alt="Thumbnail of the Figma design 1 page"/>
               </div>
             </Link>
-            <Link to="./FigmaDesign2" className="portfolio-item">
+            <Link to="/FigmaDesign2" className="portfolio-item">
               <div>
                 <img src={Figma2} alt="Thumbnail of the Figma design 2 page"/>
               </div>
@@ -37,19 +37,19 @@ const Portfolio = () => {
           <h3>React Designs</h3>
           <p>This is a collection of designs I built with React.</p>
             <div className="portfolio-inner">
-              <Link to="./Budapest" className="portfolio-item">
+              <Link to="/Budapest" className="portfolio-item">
                 <div>
                   <img src={Budapest} alt="Thumbnail of the Budapest design"/>
                 </div>
               </Link>
             
-              <Link to="./Maderia" className="portfolio-item">
+              <Link to="/Maderia" className="portfolio-item">
                 <div>
                   <img src={Maderia} alt="Thumbnail of the Maderia design"/>
                 </div>
               </Link>
 
-              <Link to="./Florence" className="portfolio-item">
+              <Link to="/Florence" className="portfolio-item">
                 <div>
                   <img src={Florence} alt="Thumbnail of the Florence design"/>
                 </div>
@@ -59,12 +59,12 @@ const Portfolio = () => {
           <h3>React Components</h3>
           <p>This is a collection of react components I built.</p>
             <div className="portfolio-inner">
-              <Link to="./MediaPlayer" className="portfolio-item">
+              <Link to="/MediaPlayer" className="portfolio-item">
                 <div>
                   <img src={Media} alt="Thumbnail of the Media Player"/>
                 </div>
               </Link>
-              <Link to="./TodoComp" className="portfolio-item">
+              <Link to="/TodoComp" className="portfolio-item">
                 <div>
                   <img src={TodoImg} alt="Thumbnail of the To do list"/>
                 </div>
