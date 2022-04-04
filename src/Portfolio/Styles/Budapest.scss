@@ -1,0 +1,90 @@
+// colors
+// #F2F3F3 - OffWhite
+// #8F8F77 - LightGrey
+// #797D66 - DarkGrey 
+// #A3C9D9 - LightBlue
+// #96B9D9 - DarkBlue
+
+.budapest-page {
+    background-color: #F2F3F3;
+ 
+    h1, h2, h3, h4 {
+        font-size: 2rem;
+    }
+
+    // Layout styling
+    .header {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    // Background Colors
+    .light-blue-bg {
+        background-color: #A3C9D9;
+    }
+
+    .dark-blue-bg {
+        background-color: #96B9D9;
+    }
+
+
+    .dark-green-bg {
+        background-color: #797D66;
+        color: #F2F3F3;
+    }
+
+    .off-light-green {
+        position: relative;
+        z-index: 0;
+
+        &::before {
+            content: "";
+            background-color: #8F8F77;
+            position: absolute;
+            top: -1rem;
+            right: -1rem;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        @media only screen and (min-width: 760px) {
+            &::before {
+                top: -3rem;
+                right: -3rem;
+                width: 25rem;
+                height: 25rem;             
+            }
+        }
+    }
+
+    .off-dark-blue {
+        position: relative;
+        z-index: 0;
+
+        &::before {
+            content: "";
+            background-color: #96B9D9;
+            position: absolute;
+            top: 50%;
+            transform: translateY(10%);
+            right: 0;
+            width: 100%;
+            height: 50%;
+            z-index: -1;
+        }
+
+        @media only screen and (min-width: 760px) {
+            &::before {
+                top: 60%;
+                right: 0;
+            }
+        }
+    }
+}
+
+@import "./global_layouts.scss";

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.media-player {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #ffffff;
+}
+
+// Importing styles 
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";

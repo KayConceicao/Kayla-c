@@ -1,0 +1,97 @@
+.todo {
+    color: #282c34;
+    height: 90vh;
+
+    .todo-title {
+        text-align: center;
+    }
+
+    .task-title {
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .new-todo {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .todo-input {
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 0.25rem;
+        border: solid 1px #cee1e6;
+        border-radius: 5px;
+        
+        &:hover {
+            transition: border-color 0.5s ease;
+            border-color: #cee1e6;
+        }
+
+        &:focus {
+            transition: all 0.5s ease;
+            border: solid 1px #cee1e6;
+            box-shadow: inset 0 0 5px #cee1e6;
+            outline: none;
+        }
+    }
+
+    .todo-btn {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+        font-size: 1rem;
+        height: fit-content;
+        background-color: #cee1e6;
+        border: solid 1px #cee1e6;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            transition: all 0.5s ease-in-out;
+            background-color: #ced6de;
+            border-color: #ced6de; 
+        }
+    }
+
+
+    .todo-task {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        text-align: left;
+        font-size: 1rem;
+        padding: 1rem;
+        margin: 0.5rem 0;
+        background-color:#e9eff4;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            transition: all 0.5s ease-in-out;
+            background-color: #ced6de;
+            text-decoration: line-through;  
+        }
+    }
+
+    .todo-completed {
+        transition: all 0.5s ease-in-out;
+        color: #797f85;
+        background-color: #ced6de;
+        text-decoration: line-through;
+
+    }
+
+    .todo-check {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin: 0 0.5rem;
+        accent-color: #2e8b57;
+    }
+
+
+}

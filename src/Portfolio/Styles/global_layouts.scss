@@ -1,0 +1,220 @@
+    .page-margin {
+        width: 95%;
+        margin: auto;
+        
+        @media only screen and (min-width: 760px) {
+            width: 80%;
+        }
+    }    
+    // Layout styling
+    .full-side-by-side {
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .twenty-width {
+        width: 50%;
+
+        @media only screen and (min-width: 760px) {
+        width: 20%;
+        }
+    }
+
+    .thirty-width {
+        width: 100%;
+
+        @media only screen and (min-width: 760px) {
+        width: 30%;
+        }
+    }
+
+    .forty-width {
+        width: 100%;
+
+        @media only screen and (min-width: 760px) {
+        width: 40%;
+        }
+    }
+
+    .fifty-width {
+        width: 100%;
+
+        @media only screen and (min-width: 760px) {
+        width: 48%;
+        }
+    }
+
+    .mid-desk-fifty-width {
+        width:50%;
+
+        @media only screen and (max-width: 550px) {
+            width: 100%;
+        }
+    }
+
+    .mob-desk-fifty-width {
+        width:50%;
+        transition: all 0.5s ease;
+
+        @media only screen and (max-width: 760px) {
+            width: 48%;
+        }
+    }
+
+    .sixity-width {
+        width: 100%;
+
+        @media only screen and (min-width: 760px) {
+            width: 60%;
+        }
+    }
+
+    .seventy-width {
+        width: 100%;
+
+        @media only screen and (min-width: 760px) {
+            width: 70%;
+        }
+    }
+
+    .eighty-width {
+        width: 100%;
+
+        @media only screen and (min-width: 760px) {
+            width: 80%;
+        }
+    }
+
+    .full-width {
+        width: 100%;
+    }
+    
+    .hundheight {
+        height: 100%;
+    }
+
+    .seventy-side-by-side {
+        width: 95%;
+        display: flex;
+        flex-flow: wrap;
+
+        @media only screen and (min-width: 760px) {
+            width: 70%;
+        }
+    }
+
+    .eightyFive-side-by-side {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+
+        @media only screen and (min-width: 760px) {
+            width: 85%;
+        }
+    }
+
+    .margin-auto {
+        margin: 0 auto;
+    }
+    
+    .center-alignment {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mob-center {
+        @media only screen and (max-width: 760px) {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .just-end {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .just-start {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .align-end {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .align-start {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .align-center {
+        display: flex;
+        align-items: center;
+    }
+
+    // Padding & Margins
+
+    .top-one-padding {
+        padding-top: 1rem;
+    }
+
+    .bottom-one-padding {
+        padding-bottom: 1rem;
+    }
+
+    .top-two-padding {
+        padding-top: 2rem;
+    }
+
+    .top-six-padding {
+        padding-top: 6rem;
+    }
+
+    .bottom-two-padding {
+        padding-bottom: 2rem;
+    }
+
+    .top-bottom-padding {
+        padding: 1rem 0;
+    }
+
+    .top-bottom-margin {
+        margin: 1rem 0;
+    }
+
+    .top-bottom-margin2 {
+        margin: 2rem 0;
+    }
+
+    .one-padding {
+        padding: 1rem
+    }
+
+    .two-padding {
+        padding: 1rem;
+
+        @media only screen and (min-width: 760px) {
+            padding: 2rem;
+        }
+    }
+
+    .three-padding {
+        padding: 1rem;
+
+        @media only screen and (min-width: 760px) {
+            padding: 3rem;
+        }
+    }
+    
+    .half-margin {
+        margin: 0.5rem;
+    }
+
+    .quarter-margin {
+        margin: 0.25rem;
+    }

@@ -1,0 +1,36 @@
+.design-page {
+    padding: 6rem 0;
+    width: 95%;
+    margin: auto;
+    
+    @media only screen and (min-width: 760px) {
+        width: 80%;
+    }
+
+
+    // globals
+    .capped {
+        text-transform: uppercase;
+    }
+
+    .img-btn {
+        border:none;
+        background-color: transparent;
+    }
+
+
+    // Text styling
+    .design-title {
+        .subtitle {
+            font-size: 0.90rem;
+            text-transform: uppercase;
+            margin: 0;
+        }
+    }
+
+    .desgin-font {
+        text-align: center;
+    }
+}
+
+@import "./global_layouts.scss";

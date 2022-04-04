@@ -1,0 +1,31 @@
+.media-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+    margin: 0 auto;
+
+    img{ 
+        width: 30%;
+        margin: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .media-container{
+        img{ 
+            width: 70%;
+        }
+    }
+}

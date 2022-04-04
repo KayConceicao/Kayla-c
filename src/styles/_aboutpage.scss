@@ -1,0 +1,191 @@
+// Layout
+
+.side-by-side {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.half-width {
+  width: 100%;
+  @media only screen and (min-width: 760px) {
+    width: 49%;
+  } 
+}
+
+
+// Header section
+.header-layout {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding: 3rem 1rem 1rem 1rem;
+  text-align: center;
+
+  @media only screen and (min-width: 760px) {
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 3rem 3rem 0;
+  }
+}
+
+.header-title {
+display: flex;
+  flex-flow: row;
+  align-items: center;
+  h1 {
+    margin-left: -4rem;
+    color: #282828;
+    font-size: 3rem;
+  }
+}
+
+.k-icon-animated{
+    left: 0;
+    top: 5%;
+    z-index: 1;
+    width: 60%;
+  
+    path{
+      fill: none;
+      stroke: #282828;
+      stroke-width: 12px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10;
+      stroke-dasharray: 513;
+      stroke-dashoffset: 513;
+      animation: dash 3000ms cubic-bezier(.72,.22,.35,1) 666ms forwards;
+  
+      @keyframes dash {
+        to {
+          stroke-dashoffset: 0;
+        }
+      }
+    }
+}
+
+.bio {
+  color: #282828;
+  z-index: 2;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  @media only screen and (min-width: 760px) {
+    width: 50%;
+  }
+}
+
+.profile-pic {
+  overflow: hidden;
+  margin: 3rem 0;
+  position: relative;
+  border-radius: 50%;
+  border: solid 4px white;
+
+  @media only screen and (min-width: 760px) {
+    width: 35%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+  }
+}
+
+// Services section
+.services {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+.intro-text {
+    width: 100%;
+}
+
+.serve-cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.list-motion {
+    list-style: none;
+    margin: 1rem;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.list-item-motion {
+    list-style: none;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    border-bottom: 3px solid #282828;
+    color: #282828;
+    overflow: hidden;
+    padding: 1rem;
+    cursor: pointer;
+    li:last-child {
+      margin-bottom: 0px;
+    }
+    h4 {
+      padding: 0 1rem;
+      font-size: 1.5rem;
+    }
+}
+
+.serve-card {
+    margin: 1rem 0;
+    color: #282828;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+  
+    .icon-color {
+      color: #282828;
+    }
+  
+    .large-icon {
+      font-size: 2rem;
+    }
+  
+    .small-icon {
+      font-size: 1rem;
+    }
+}
+
+.content-style {
+    padding: 0 2rem;
+}
+
+// Experience section
+.left-bottom-border {
+  padding: 1rem;
+  margin: 1rem;
+  border-left: solid 5px #282828;
+  border-bottom: solid 5px #282828;
+  position: relative;
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 5px;
+    right: -7rem;
+    bottom: -5px;
+    background-color: #282828;
+  }
+
+  @media only screen and (min-width: 760px) {
+  padding: 3rem;
+  }
+}

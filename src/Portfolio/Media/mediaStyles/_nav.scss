@@ -1,0 +1,35 @@
+.media-nav {
+    margin: 0 auto;
+    min-height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 7rem 1rem 1rem 1rem;
+    align-items: center;
+    padding-left: 20%;
+
+    button {
+        background-color: #fff;
+        cursor: pointer;
+        border: 2px solid #ccc;
+        padding: 0.5rem;
+        transition: all 0.3s ease;
+        width: 8rem;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+
+        &:hover{
+            background-color: #567237;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 765px){
+    nav { 
+        justify-content: flex-end;
+        button {
+            z-index: 10;
+        }
+    }
+}

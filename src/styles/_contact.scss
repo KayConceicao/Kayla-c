@@ -1,0 +1,89 @@
+.contact { 
+  padding: 3rem;
+  margin: 2rem 0;
+  background: #ced6de;
+  color: #1f1e1e;
+  position: relative;
+
+  ::after {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 100%;
+    left: -7rem;
+    top: 0;
+    background: #ced6de;
+  }
+
+  a {
+    color: #282828;
+    text-decoration: none;
+    font-family: 'Roboto Slab';
+    font-weight: lighter;
+    :hover {
+      text-decoration: underline #1f1e1e;
+    }
+
+  }
+
+  .form-container {
+    padding: 1rem;
+    border: dashed 2px #fff;
+  }
+
+  .form-inner {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-flow: column;
+
+    input{
+      height: 2rem;
+    }
+
+    textarea {
+      height: 4rem;
+      resize: vertical;
+    }
+
+    textarea,
+    input {
+      font-family: arial;
+      border: none;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    div[role='alert'] {
+      color: red;
+      margin-top: 1em;
+    }
+  }
+
+  .btn-message {
+    display: flex;
+    flex-flow: row;
+
+    .status-message {
+      display: none;
+      padding: 0 1rem;
+    }
+    .success {
+      display: block;
+      color: green;
+    }
+
+    .failure {
+      display: block;
+      color: red;
+    }
+  }
+
+
+  @media only screen and (min-width: 760px) {
+  padding: 3rem;
+  padding-bottom: 5rem;
+  margin: 7rem;
+  margin-bottom: 0;
+  }
+}

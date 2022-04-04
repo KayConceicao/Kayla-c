@@ -1,0 +1,60 @@
+
+
+.portfolio-container {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+  
+    @media only screen and (min-width: 760px) {
+      padding: 6rem 1rem 1rem 1rem;
+    }
+
+    h2 {
+      margin-bottom: 2rem;
+    }
+
+    h3 {
+      margin-top: 2rem
+    }
+
+    .portfolio-inner {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .portfolio-item {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        text-align: center;
+        width: 48%;
+        margin: 1%;
+
+        @media only screen and (min-width: 760px) {
+          width: 23%;
+        }
+    }
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      background-color: #282828;
+      color: #fff;
+      transition: all 0.5s ease;
+      font-family: 'Roboto Slab';
+      
+      p {
+        margin: 0.5rem 0;
+        line-height: 1rem;
+      }
+
+      &:hover {
+        color: #000;
+        background-color: #fff;
+      }
+    }
+
+  }
