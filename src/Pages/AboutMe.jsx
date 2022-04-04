@@ -7,9 +7,6 @@ import Experience from "../Components/Experience";
 import ServiceSection from "../Components/ServiceSection";
 import Contact from "./Contact";
 
-// images
-import img2 from "../img/Img_2.jpg";
-
 
 const AboutMe = () => { 
   return (

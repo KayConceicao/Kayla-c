@@ -1,6 +1,6 @@
 import React from "react";
 
-const librarySong = ({song, songs, setCurrentSong, id, audioRef, isPlaying, setSongs}) => {
+const LibrarySong = ({song, songs, setCurrentSong, id, audioRef, isPlaying, setSongs}) => {
     
     const songSelectHandler = async () => {
         await setCurrentSong(song);
@@ -26,7 +26,7 @@ const librarySong = ({song, songs, setCurrentSong, id, audioRef, isPlaying, setS
     };
     
     return (
-        <div onClick={songSelectHandler} className={`librarySong ${song.active ? 'selected' : ""}`}>
+        <div onClick={songSelectHandler} className={`library-song ${song.active ? 'selected' : ""}`}>
             <img src={song.cover} alt={song.name}></img>
             <div className="info-songs">
                 <h3>{song.name}</h3>
@@ -36,4 +36,4 @@ const librarySong = ({song, songs, setCurrentSong, id, audioRef, isPlaying, setS
     );
 };
 
-export default librarySong;
+export default LibrarySong;

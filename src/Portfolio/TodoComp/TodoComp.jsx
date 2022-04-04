@@ -10,7 +10,7 @@ import "./Todo.scss";
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlus, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
 
 // Local storage
 const LOCAL_STORAGE_TODO = 'todoComp.todos'

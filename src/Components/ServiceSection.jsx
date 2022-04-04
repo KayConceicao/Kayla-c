@@ -6,7 +6,7 @@ import { motion, AnimateSharedLayout, AnimatePresence } from "framer-motion";
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown, faSwatchbook, faCode, faRulerCombined } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown, faSwatchbook, faCode } from "@fortawesome/free-solid-svg-icons";
 
 const ServiceSection =() => {
   return (
