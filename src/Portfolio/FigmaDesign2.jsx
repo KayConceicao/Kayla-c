@@ -46,13 +46,13 @@ const FigmaDesign1 = () => {
                 </div>
               </div>
 
-              <div className=" mob-desk-fifty-width">
+              <div className="fifty-width">
                 <img className="half-margin" src={headerImg} alt="A snapshot of the design described"/>
               </div>
           </div>
 
           <div className="full-side-by-side">
-            <div className="top-two-padding mob-desk-fifty-width">
+            <div className="top-two-padding fifty-width">
               {/* Colors */}
               <div className="bottom-one-padding">
                 <h4 className="design-sub-header">Primary colors</h4>
@@ -74,24 +74,24 @@ const FigmaDesign1 = () => {
             </div>  
 
             {/* Icons */}
-            <div className="top-two-padding bottom-two-padding mob-desk-fifty-width">
+            <div className="top-two-padding bottom-two-padding fifty-width">
                 <div className="mob-center bottom-two-padding">
                     <h6 className="design-sub-header">Icons</h6>
                     <div className="full-side-by-side center-alignment mob-center">
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={home} alt="" /></div>
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={playlist} alt="" /></div>
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={mixer} alt="" /></div>
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={settings} alt="" /></div>
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={search} alt="" /></div>
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={soundwave} alt="" /></div>
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={mic} alt="" /></div>
-                      <div className="color1 inverse-text two-padding half-margin twenty-width"><img src={speaker} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={home} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={playlist} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={mixer} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={settings} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={search} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={soundwave} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={mic} alt="" /></div>
+                      <div className="color1 inverse-text two-padding half-margin mob-twenty-width"><img src={speaker} alt="" /></div>
                     </div>
                 </div>
             </div>
           </div>
 
-          <div className="full-side-by-side">
+          <div className="full-side-by-side top-two-padding">
               <div className="quarter-margin">
                   <p className="design-sub-header">The loading screen and Home page</p>
                   <div className="full-side-by-side center-alignment">

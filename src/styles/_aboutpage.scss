@@ -174,18 +174,8 @@ display: flex;
   border-left: solid 5px #282828;
   border-bottom: solid 5px #282828;
   position: relative;
-
-  ::after {
-    content: "";
-    position: absolute;
-    width: 7rem;
-    height: 5px;
-    right: -7rem;
-    bottom: -5px;
-    background-color: #282828;
-  }
-
+  
   @media only screen and (min-width: 760px) {
-  padding: 3rem;
+    padding: 3rem;
   }
 }

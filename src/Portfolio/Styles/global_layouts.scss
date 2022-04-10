@@ -13,11 +13,15 @@
     }
 
     .twenty-width {
-        width: 50%;
+        width: 48%;
 
         @media only screen and (min-width: 760px) {
         width: 20%;
         }
+    }
+
+    .mob-twenty-width {
+        width: 20%;
     }
 
     .thirty-width {
