@@ -40,7 +40,7 @@ const FigmaDesign1 = () => {
               <div className="design-title mid-desk-fifty-width ">
                 <p className="subtitle">Learning how to use Figma</p>
                 <h1 className="title">Design 1: E-commerce Page</h1>
-                <p>This was the first design I made using figma. I used an e-commerce site as a base so that I could learn the features Figma has to offer.</p>
+                <p>This was the first design I made using Figma. I used an e-commerce site as a base so that I could learn the features Figma has to offer.</p>
                 <p>I gave myself prompts to work from such as Mobile friendly, how placing a order will look and how to attract a younger demographic with blogs about product.</p>
               </div>
 
@@ -147,7 +147,7 @@ const FigmaDesign1 = () => {
               </div>
 
               <div className="top-two-padding">
-                  <p className="design-sub-header">Placing a order for desktop</p>
+                  <p className="design-sub-header">Placing an order for desktop</p>
                   <div className="full-side-by-side center-alignment">
                     <button onClick={() => setIsZoomedIn7(!zoomedIn7)} className={`img-btn mob-desk-fifty-width ${zoomedIn7 ? 'full-width' : ''}`}>
                       <div><p>The shopping basket</p><img src={PlaceOrder} alt=""/></div>
@@ -164,7 +164,7 @@ const FigmaDesign1 = () => {
                   </div>
               </div>
               <div className="top-two-padding">
-                <p className="design-sub-header">Placing a order for Mobile</p>
+                <p className="design-sub-header">Placing an order for Mobile</p>
                 <img src={Mob_order} alt="" />
               </div>  
           </div>

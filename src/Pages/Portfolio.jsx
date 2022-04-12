@@ -20,7 +20,6 @@ const Portfolio = () => {
           <h2>Welcome to my portfolio</h2>
           
           <h3>Figma Designs</h3>
-          <p>This is a collection of designs I created while learning how to use Figma.</p>
           <div className="portfolio-inner">
             <Link to="/FigmaDesign1" className="portfolio-item">
               <div>
@@ -35,7 +34,6 @@ const Portfolio = () => {
           </div>
 
           <h3>React Designs</h3>
-          <p>This is a collection of designs I built with React.</p>
             <div className="portfolio-inner">
               <Link to="/Budapest" className="portfolio-item">
                 <div>
@@ -57,7 +55,6 @@ const Portfolio = () => {
             </div>
 
           <h3>React Components</h3>
-          <p>This is a collection of react components I built.</p>
             <div className="portfolio-inner">
               <Link to="/MediaPlayer" className="portfolio-item">
                 <div>

@@ -42,7 +42,7 @@ const FigmaDesign1 = () => {
                   <p className="subtitle">Learning how to use Figma</p>
                   <h1 className="title bottom-two-padding">Design 2: Music Mobile App</h1>
                   <p>This a mobile only App I designed in Figma.</p>
-                  <p>I designed a feature that allows users too create their own music. I am especially happy with how the electronic sound board turned out as it mimics boards used by DJs.</p>
+                  <p>I designed a feature that allows users to create their own music. I am especially happy with how the electronic sound board turned out as it mimics boards used by DJs.</p>
                 </div>
               </div>
 

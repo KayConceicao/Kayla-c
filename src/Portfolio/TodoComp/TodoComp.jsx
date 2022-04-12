@@ -53,7 +53,7 @@ function TodoComp() {
     return ( 
         <div className="todo margin-auto sixity-width top-six-padding ">
             <div className="half-margin">
-                <h1 className="todo-title"> Todo List component</h1>
+                <h1 className="todo-title"> To do List component</h1>
                 
                 <div className="top-bottom-margin2">
                     <div className="new-todo">

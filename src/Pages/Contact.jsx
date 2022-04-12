@@ -62,8 +62,8 @@ const Contact = () => {
           </div>
 
           <div className="form-inner">
-            {errors.message && errors.message.type === "required" && ( <div role="alert">Name is required<br/></div> )}
-            <textarea name='message' {...register('message', { required: true })} placeholder='Message'/>
+            {errors.message && errors.message.type === "required" && ( <div role="alert">Message is required<br/></div> )}
+            <textarea name='message' maxLength='1500' {...register('message', { required: true })} placeholder='Message'/>
             
           </div>
 
